@@ -21,7 +21,7 @@ makeCacheMatrix <- function(x = matrix()) {
              getinverse = getinverse)
 }
 
-## This function calcuates the inverse of a provided matrix object.  
+## This second function calcuates the inverse of a provided matrix object.  
 ## If the inverse has already been calculated and cached, the function returns
 ## that cached value.  Otherwise, the function calcuates the inverse and then
 ## caches that result for future use.
